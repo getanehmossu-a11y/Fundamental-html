@@ -1,0 +1,26 @@
+/* global css */
+/* universal selector */
+*{
+    font-size:25px ;
+    font-weight:700 ;
+}
+/* external css */
+h3{
+    color: blue;
+}
+/* element selector */
+h4{
+    color: brown;
+}
+/* class selector */
+.myclass{
+    color: black;
+}
+/* id selector */
+#myid{
+    color: rgb(42, 165, 79);
+}
+/* group selector */
+h5,p {
+    color: rgb(233, 0, 182);
+}
