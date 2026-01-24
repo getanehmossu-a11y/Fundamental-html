@@ -43,3 +43,24 @@ ul li:nth-child(3) {
 }
 
 /* :not(selector) peseduo-class */
+/* applies styling to any other paragraph apart from the first paragraph */
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+/* before pseudo element */
+ul li ::before{
+    content: ✈️;
+}
+
+/* before pseudo element */
+a::after{
+    content: 🌊;
+}
+
+/* dirst-letter pseudo element */
+p::first-letter{
+    font-size: 400%;
+    color: rgb(255, 0, 208);
+    font-weight: bold;
+}
